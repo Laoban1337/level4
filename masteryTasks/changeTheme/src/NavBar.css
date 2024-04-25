@@ -16,7 +16,7 @@
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: space-between; /* Spread items evenly */
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav-list {

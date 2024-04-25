@@ -1,6 +1,6 @@
 import React from "react";
-import ThemeContext from "./themeContext";
-import Footer from "./Footer";
+import {ThemeContext} from "./themeContext";
+
 
 function Main() {
   const context = React.useContext(ThemeContext);
@@ -12,7 +12,7 @@ function Main() {
         <br />
         
         
-        {/* <button className={`button ${context}-theme`}>Change theme</button> */}
+        {/* <button className={`button ${context.changeTheme}-theme`}>Change theme</button> */}
       </div>
     </div>
   );
